@@ -158,5 +158,3 @@ MYSQL * mariadb_connection() {
 
     return con;
 }
-
-Sharing settings

@@ -265,5 +265,3 @@ void read_send(int fd, struct xbee *xbee, struct xbee_con *con, xbee_err ret) {
 void callback_function(struct xbee *xbee, struct xbee_con *con, struct xbee_pkt **pkt, void **data) {
 	printf("rx: %s\n", (*pkt)->data);
 }
-
-Sharing settings
